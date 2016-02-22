@@ -26,12 +26,9 @@ function bcmlib_periodicals_menu() {
 	return $items;
 }
 function _periodicals_page_callback($arg1){
-
 	_mobile_warning();
-
 	drupal_set_title('');
-
-	return '<div class="more-link" style="margin-bottom:24px;"><a href="/browse/periodicals">Back to Periodical List</a></div><div id="periodical-content" style="margin:0; padding:0; background:none; border:none; display:block; width:100%;"></div><script type="text/javascript">jQuery("#periodical-content").load("/_periodicals/html/'.$arg1.'");</script><div class="more-link" style="margin-bottom:24px;"><a href="/browse/periodicals">Back to Periodical List</a></div>';
+	return '<div class="more-link" style="margin-bottom:24px;"><a href="/browse/periodicals">Back to Periodical List</a></div><div id="periodical-content" style="margin:0; padding:0; background:none; border:none; display:block; width:100%;"></div><script type="text/javascript">jQuery("#periodical-content").load("/_periodicals/html/'.$arg1.'", function(){var $loaded=jQuery("#periodical-content");$loaded.find("table").each(function(){var $this=jQuery(this);$this.wrap("<div class=\"table-wrapper\"></div>");});});</script><div class="more-link" style="margin-bottom:24px;"><a href="/browse/periodicals">Back to Periodical List</a></div>';
 }
 function _mobile_warning(){
 	// Journals & Magazines List (Local Holdings) page
