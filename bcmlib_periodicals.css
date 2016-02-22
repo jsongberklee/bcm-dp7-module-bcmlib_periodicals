@@ -1,0 +1,30 @@
+/*needs influence from ipac CSS */
+body.page-periodicals{background-color:white;margin:0px;border:0px;}
+body.page-periodicals td{background-image:none !important;-moz-box-shadow:none !important;-webkit-box-shadow:none !important;box-shadow:none !important;background-image:none !important;}
+body.page-periodicals .mainTable td{text-align:center !important;}
+.inStorage{color:#aaa;font-weight:bold;background-color:#efefef !important;}
+.legend{font-weight:bold;padding:10pt 0px 15pt 0pt;}
+.region-content table{font-weight:bold; margin-bottom: 0 !important;}
+.table-wrapper{margin-top: 24px; overflow-x:auto;}
+/* IE doesn't like the text aligment in the class for the <table> */
+table{border-spacing:0;padding:0;margin:0;border:3px solid #777766;width:100%;}
+/* table{border-spacing:0;padding:0;margin:0;border:0} */
+td{border-bottom:1px solid #CCB;color:#000000;}
+.tableHeaders{color:#efefef;font-weight:bold;background-color:#777766;}
+.tableHeaders{color:#efefef !important;font-weight:bold;background-color:#777766 !important;background-image:none !important;-moz-box-shadow:none !important;-webkit-box-shadow:none !important;box-shadow:none !important;background-image:none !important;}
+.periodicalTitle{color:#002828;font-size:24pt;text-align:center;background-color:#eeeecc;line-height:150%;}
+.periodicalSubTitle{color:#002828;font-size:14pt;background-color:#eeeecc;text-align:center;}
+.ipac_green{color:#002828;text-align:center;}
+.navegationLinks1{text-align:center;}
+.navegationLinks2{text-align:right;margin-top:-1.1pc;padding-bottom:20pt;}
+.index{color:#336699;font-style:italic;font-weight:bold;}
+.fullTextAvailable{color:#800000;font-style:italic;font-weight:bold;}
+.inMediaCenterDesk{font-weight:bold;text-align:center;}
+.footer{text-align:center;}
+.periodicalList{padding-left:20px;}
+.layout_table{border:0;margin-bottom:20px;}
+.content_general{width:780px;}
+.content_general_td{border-bottom:0;}
+@media (max-width:767px){
+	body.page-periodicals #page{margin-top:80px;}
+}

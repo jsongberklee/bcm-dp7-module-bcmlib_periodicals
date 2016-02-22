@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_field_schema().
+ *
+function bcmlib_periodicals_field_schema($field) {  
+  // Return array that contains.
+  return array(                  
+    'columns' => array(           
+      // In column there is a textf field.
+      'bcmlib_periodicals' => array(          
+        // Field has text type.
+        'type' => 'text',       
+      ), 
+    ), 
+  ); 
+}
+/**/

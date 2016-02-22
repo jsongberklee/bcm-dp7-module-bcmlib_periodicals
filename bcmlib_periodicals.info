@@ -1,0 +1,14 @@
+name = Berklee Library Periodical Static Doc Embed
+description = This module to attach static Periodical html docs to be embedded on the site
+package = Berklee College of Music
+project = "bcmlib_periodicals"
+datestamp = "1373924501"
+version = "7.x-1.0-beta1"
+core = 7.x
+
+dependencies[] = jsongutil
+
+files[] = bcmlib_periodicals.module
+files[] = bcmlib_periodicals.install
+
+stylesheets[all][] = bcmlib_periodicals.css
